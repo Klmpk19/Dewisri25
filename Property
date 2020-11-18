@@ -1,9 +1,9 @@
 <?php
     //cara penulisan class OOP PHP-@pulung_koding
-   class buah{    //class buah
-     var $nama;  //property nama
-     var $jumlah;  //property jumlah
-     var $harga; //property harga
+   class buah{     //class buah
+     var $Jeruk;   //property jeruk
+     var $Anggur;  //property anggur
+     var $Apel;    //property apel
      
      
    }
