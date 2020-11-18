@@ -1,5 +1,5 @@
 <?php
-   //class hewan
+   //class buah
    class buah{
      //property
      var $nama;
@@ -11,7 +11,7 @@
      
      //method buah
      function tampilkan_nama () {
-       return "Nama Buah Jeruk<br/>";
+       return "Buah Anggur<br/>";
      }
      
      
