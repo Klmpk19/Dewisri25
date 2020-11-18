@@ -1,0 +1,10 @@
+<?php
+    //cara penulisan class OOP PHP-@pulung_koding
+   class buah{    //class buah
+     var $nama;  //property nama
+     var $jumlah;  //property jumlah
+     var $harga; //property harga
+     
+     
+   }
+ ?>
