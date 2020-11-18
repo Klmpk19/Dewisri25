@@ -17,7 +17,7 @@
      
      //method buah
      function tampilkan_nama () {
-       return "Nama Buah Anggur<br/>";
+       return "Buah Anggur<br/>";
      }
        
      }
