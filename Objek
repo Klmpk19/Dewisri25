@@ -1,0 +1,24 @@
+<?php
+   //class hewan
+   class buah{
+     //property
+     var $nama;
+     var $warna;
+     
+     function construct () {
+       echo "ini adalah isi method construct <br/>";
+     }
+     
+     //method buah
+     function tampilkan_nama () {
+       return "Nama Buah Jeruk<br/>";
+     }
+     
+     
+   }
+   //instansiasi class buah
+   $buah = new buah();
+   
+   //memanggil method tampilkan_nama dari class buah
+   echo $buah->tampilkan_nama ();
+ ?>
