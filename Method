@@ -1,0 +1,15 @@
+<?php
+    //cara penulisan class OOP PHP-@pulung_koding
+   class buah{    
+     var $jeruk;  
+     var $anggur;  
+     var $apel; 
+     //method OOP
+     function jumlah(){
+       //isi method
+     }
+     function harga(){
+        //isi method
+     }
+   }
+ ?>
