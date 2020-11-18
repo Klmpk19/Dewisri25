@@ -1,0 +1,22 @@
+<?php
+   //class buah
+class buah{
+  //menentukan property dengan protected
+  protected $nama = "Anggur";
+  
+  //method protected 
+  protected function nama () {
+    return "Buah Anggur" .$this->nama;
+  }
+  
+  public function tampilkan_nama() {
+    return $this->tampilkan_nama;
+  }
+  
+}
+//instansiasi class buah
+$buah= new buah();
+
+//memanggil method public tampilkan_warna dari class buah
+echo $buah->tampilkan_nama();
+ ?>
