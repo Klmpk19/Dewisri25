@@ -15,7 +15,7 @@
        echo "ini adalah isi method destruct <br/>";
      }
      
-     //method hewan
+     //method buah
      function tampilkan_nama () {
        return "Nama Buah Anggur<br/>";
      }
