@@ -1,0 +1,18 @@
+<?php
+   //class buah
+class buah {
+  //menentukan property dengan private
+  private $nama = "Anggur";
+  
+  //method public
+  public function tampilkan_nama() {
+    return "Buah Anggur " .$this->nama;
+    
+  }
+  
+  
+  
+}
+//instansiasi class buah 
+$buah = new buah() ;
+ ?>
