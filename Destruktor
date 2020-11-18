@@ -1,0 +1,30 @@
+<?php
+   //class buah
+   class buah {
+     //property
+     var $nama;
+     var $warna;
+     
+     //method construct di jalankan pertama kali
+     function __construct () {
+       echo "ini adalah isi method construct <br/>";
+     }
+     
+     //method destruct di jalankan terakhir
+     function __destruct () {
+       echo "ini adalah isi method destruct <br/>";
+     }
+     
+     //method buah
+     function tampilkan_nama () {
+       return "Nama Buah Apel<br/>";
+     }
+       
+     }
+     //instansiasi class buah
+     $buah = new buah();
+     
+     //memanggil method tampilkan_nama dari class buah
+     echo $buah->tampilkan_nama();
+   
+ ?>
