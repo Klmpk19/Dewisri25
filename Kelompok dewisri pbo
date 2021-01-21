@@ -1,0 +1,10 @@
+<?php
+// menggunakan keyword interface
+interface User
+{
+    // isi interface nanti disini
+public function username($username);
+    public function gender();
+}
+echo"Ini kelompok dewisri,faik,dodi,febri"
+?>
