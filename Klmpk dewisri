@@ -1,0 +1,9 @@
+<?php
+// menggunakan keyword interface
+interface User
+{
+    // isi interface nanti disini
+public function username($username);
+    public function gender();
+}
+?>
