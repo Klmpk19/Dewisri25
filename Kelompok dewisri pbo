@@ -1,10 +1,35 @@
-<?php
-// menggunakan keyword interface
-interface User
-{
-    // isi interface nanti disini
-public function username($username);
-    public function gender();
+<?php 
+interface KendaraanInterface{
+  public function get_bahan_bakar();
 }
-echo"Ini kelompok dewisri,faik,dodi,febri"
+ 
+class bus implements KendaraanInterface{
+  public function get_bahan_bakar()
+  {
+    return 'Solar';
+  }
+}
+ 
+class pesawat implements KendaraanInterface{
+  public function get_bahan_bakar()
+  {
+    return 'Avtur';
+  }
+}
+ 
+class kapal implements KendaraanInterface{
+  public function get_bahan_bakar()
+  {
+    return 'Solar';
+  }
+}
 ?>
+
+
+
+
+
+
+
+
+
